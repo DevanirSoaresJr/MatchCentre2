@@ -36,10 +36,6 @@ class MatchCentreActivity : AppCompatActivity() {
         activityComponent.inject(this)
     }
 
-    //NOT THE BEST PRACTICE SINCE WE LOADING IT FROM AN URL AND IT NOT A KNOWN API BUT WHY NOT JUST TO
-    //MAKE THE APP LOOK BETTER ONCE RAN IN A DEVICE
-    //HOWEVER THE LINKS ARE ON A CONSTANTS FILE WHICH CAN MAKE MAINTENANCE A BIT EASIER...
-    //USING PICASSO THIS WAY IS MORE OF A TEMPORARY SOLUTION... ignore the caps lock was typing the constants...
     @SuppressLint("SetTextI18n")
     override fun onResume() {
         super.onResume()
