@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MatchCentreDevanir</string>
+    <string name="away_roaster">Away Roaster</string>
+    <string name="home_roaster">Home Roaster</string>
+</resources>
